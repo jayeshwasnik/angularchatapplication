@@ -8,7 +8,12 @@ import {RouterModule,Routes} from '@angular/router';
 //importing chat and usermodule 
 import {UserModule} from './user/user.module';
 import {ChatModule} from './chat/chat.module';
-import {LoginComponent} from './user/login/login.component'
+import {LoginComponent} from './user/login/login.component';
+
+
+//for toastr
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 
 import { AppComponent } from './app.component';
